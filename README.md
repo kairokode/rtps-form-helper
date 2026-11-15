@@ -21,6 +21,12 @@ After you pick **Type of Local Body** (Gram Panchayat / Nagar Nigam / Nagar Pari
 - Multiple named profiles, stored in your browser
 - Export and import profiles as a `.json` file
 - Fills personal, address and other form fields on supported RTPS forms
+- Currently supports: Residence, Caste and Income certificate forms
+
+## Roadmap
+
+- [ ] OBC certificate form support
+- [ ] NCL (Non-Creamy Layer) certificate form support
 
 ## Privacy
 
