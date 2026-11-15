@@ -1,0 +1,42 @@
+{
+  "manifest_version": 3,
+  "name": "Bihar RTPS Form Helper",
+  "version": "2.0.0",
+  "description": "Auto-fill Residence, Caste & Income forms on Bihar RTPS portal",
+  "permissions": [
+    "storage",
+    "activeTab",
+    "scripting"
+  ],
+  "host_permissions": [
+    "https://serviceonline.bihar.gov.in/*"
+  ],
+  "browser_specific_settings": {
+    "gecko": {
+      "id": "bihar-rtps-helper@kairokode.github.io"
+    }
+  },
+  "icons": {
+    "48": "icons/icon-48.svg",
+    "96": "icons/icon-48.svg"
+  },
+  "action": {
+    "default_icon": {
+      "16": "icons/icon-48.svg",
+      "32": "icons/icon-48.svg"
+    },
+    "default_popup": "popup.html",
+    "default_title": "RTPS Helper"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://serviceonline.bihar.gov.in/*"
+      ],
+      "js": [
+        "content.js"
+      ],
+      "run_at": "document_idle"
+    }
+  ]
+}
