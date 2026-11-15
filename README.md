@@ -62,3 +62,7 @@ Code: [MIT](LICENSE).
 ## Credits
 
 Icon: clipboard-document-check from [Heroicons](https://github.com/tailwindlabs/heroicons) by Tailwind Labs, MIT license. Recolored. See [THIRD-PARTY-NOTICES.md](THIRD-PARTY-NOTICES.md).
+
+---
+
+Built by [kairokode](https://github.com/kairokode).
