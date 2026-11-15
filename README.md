@@ -2,6 +2,8 @@
 
 A Firefox extension that saves the details you enter on Bihar RTPS (Right to Public Services) service forms (Residence, Caste, Income) and fills them back in with one click. It works only on `serviceonline.bihar.gov.in`.
 
+![RTPS Helper popup](screenshots/popup.png)
+
 ## How to use
 
 1. Open the RTPS application form and fill in your details.
